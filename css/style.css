@@ -4,12 +4,12 @@ body {
 }
 
 button.btnPill {
-    background-color: hsl(180, 66%, 49%) !important;
-    border-color: white !important;
-    border-radius: 20px !important;
+    background-color: hsl(180, 66%, 49%) !important;    
+    border-radius: 15px !important;
     color: white !important;
     font-size: 1rem;
     font-weight: 700;
+    border: none;
 }
 
 button.btnPill:hover {
@@ -29,7 +29,7 @@ ul li a.nav-link:hover {
 }
 
 h1.titleIntro {
-    color: hsl(257, 27%, 26%);
+    color: hsl(260, 8%, 14%);
     font-weight: 700;
     font-size: 4rem;
 }
@@ -39,3 +39,12 @@ p.contentIntro {
     font-size: 1rem;
     font-weight: 500;
 }
+
+div.linkShorten {
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+
