@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 7%, 63%);
+}
+
+button.btnPill {
+    background-color: hsl(180, 66%, 49%) !important;
+    border-color: white !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button.btnPill:hover {
+    background-color: #008B8B !important;
+    color: white !important;
+}
+
+a.nav-link {
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(257, 7%, 63%) !important;
+}
+
+ul li a.nav-link:hover {    
+    color: white !important;
+    background-color: hsl(257, 27%, 26%) !important;
+}
+
+h1.titleIntro {
+    color: hsl(257, 27%, 26%);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+p.contentIntro {
+    color: hsl(257, 7%, 63%);
+    font-size: 1rem;
+    font-weight: 500;
+}
