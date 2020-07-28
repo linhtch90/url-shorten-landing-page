@@ -10,14 +10,28 @@ $(function () {
 
     // Shorten link with Bitly
     function shortenLink(longUrl) {
-        $.bitlr({
-            apiKey: '23c47f073826eb0cdc1c2abedbb006976e0e0549',
-            link: longUrl,
-            anchor: false,
-            success: function (shortUrl) {
+        // With Bitly
+        // $.bitlr({
+        //     apiKey: '23c47f073826eb0cdc1c2abedbb006976e0e0549',
+        //     link: longUrl,
+        //     anchor: false,
+        //     success: function (shortUrl) {
+        //         $('#linkOutput').text(shortUrl);
+        //     }
+        // });
+
+        // With Rel.ink
+        $.post(
+            'https://rel.ink/api/links/',
+            {
+                'url': longUrl
+            },
+            function (data) {
+                shortUrl = "https://rel.ink/" + data.hashid;
                 $('#linkOutput').text(shortUrl);
-            }
-        });
+            },
+        );
+
     };
 
     $('#shortUrlButton').click(function () {
