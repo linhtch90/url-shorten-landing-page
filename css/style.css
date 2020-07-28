@@ -143,6 +143,12 @@ img.cardImage {
     left: 15px;
 }
 
+span#formNotification {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: lightcoral;
+}
+
 
 
 

@@ -15,7 +15,7 @@ $(function () {
             link: longUrl,
             anchor: false,
             success: function (shortUrl) {
-                $('#shortUrl span').text(shortUrl);
+                $('#linkOutput').text(shortUrl);
             }
         });
     };
@@ -24,8 +24,10 @@ $(function () {
         var longUrl = $('#linkInput').val();
         if (validateURL(longUrl)) {
             shortenLink(longUrl);
+            $("#formNotification").text("");
         } else {
-            alert("Please enter a valid URL!");
+            // alert("Please enter a valid URL!");
+            $("#formNotification").text("*Note: Please enter a valid URL!");
         }
     });
 
