@@ -42,6 +42,7 @@ $(function () {
         } else {
             // alert("Please enter a valid URL!");
             $("#formNotification").text("*Note: Please enter a valid URL!");
+            $('#linkOutput').text("");
         }
     });
 
