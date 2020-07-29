@@ -1,156 +1,220 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    color: hsl(257, 7%, 63%);
+  font-family: "Poppins", sans-serif;
+  color: hsl(257, 7%, 63%);
 }
 
 button.btnPill {
-    background-color: hsl(180, 66%, 49%) !important;    
-    border-radius: 15px !important;
-    color: white !important;
-    font-size: 1rem;
-    font-weight: 700;
-    border: none;
-    width: 8rem;
+  background-color: hsl(180, 66%, 49%) !important;
+  border-radius: 15px !important;
+  color: white !important;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  width: 8rem;
 }
 
 button.btnPill:hover {
-    background-color: #008B8B !important;
-    color: white !important;
+  background-color: #008b8b !important;
+  color: white !important;
 }
 
 button.btnStart {
-    width: 12rem;
+  width: 12rem;
 }
 
 a.nav-link {
-    font-size: 1rem;
-    font-weight: 700;
-    color: hsl(257, 7%, 63%) !important;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(257, 7%, 63%) !important;
 }
 
-ul li a.nav-link:hover {    
-    color: white !important;
-    background-color: hsl(257, 27%, 26%) !important;
+ul li a.nav-link:hover {
+  color: white !important;
+  background-color: hsl(257, 27%, 26%) !important;
 }
 
 h1.titleIntro {
-    color: hsl(260, 8%, 14%);
-    font-weight: 700;
-    font-size: 4rem;
+  color: hsl(260, 8%, 14%);
+  font-weight: 700;
+  font-size: 4rem;
 }
 
 h2.titleStatistics {
-    color: hsl(260, 8%, 14%);
-    font-weight: 700;
-    font-size: 2rem;
+  color: hsl(260, 8%, 14%);
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 h2.titleBoost {
-    color: white;
-    margin-bottom: 2rem;
+  color: white;
+  margin-bottom: 2rem;
 }
 
 p.contentIntro {
-    color: hsl(257, 7%, 63%);
-    font-size: 1rem;
-    font-weight: 500;
+  color: hsl(257, 7%, 63%);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 div.linkShorten {
-    background-image: url(../images/bg-shorten-desktop.svg);
-    background-color: hsl(257, 27%, 26%);
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    border-radius: 5px;
-    margin-bottom: 3rem;
+  background-image: url(../images/bg-shorten-desktop.svg);
+  background-color: hsl(257, 27%, 26%);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
 }
 
 div.containerStatistics {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 
 div.containerBoost {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-image: url(../images/bg-boost-desktop.svg);
-    background-color: hsl(257, 27%, 26%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-color: hsl(257, 27%, 26%);
 }
 
 div.featureCard {
-    border: none;
-    border-bottom: solid 2px hsl(180, 66%, 49%);
-    position: relative;
+  border: none;
+  border-bottom: solid 2px hsl(180, 66%, 49%);
+  position: relative;
 }
 
 div.containerFooter {
-    background-color: hsl(260, 8%, 14%);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  background-color: hsl(260, 8%, 14%);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 div.shortenLink {
-    color: hsl(180, 66%, 49%);
-    /* border: solid 2px hsl(257, 27%, 26%); */
-    background-color: hsl(257, 27%, 26%);
-    border-radius: 5px;
-    /* padding-top: 1rem;
+  color: hsl(180, 66%, 49%);
+  /* border: solid 2px hsl(257, 27%, 26%); */
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 5px;
+  /* padding-top: 1rem;
     padding-bottom: 1rem; */
-    font-size: 1.5rem;
-    font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 h5.featureCardHeader {
-    padding-top: 50px;
-    color: hsl(260, 8%, 14%);
-    background-color: hsl(180, 66%, 49%);
-    border-radius: 5px;
+  padding-top: 50px;
+  color: hsl(260, 8%, 14%);
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 5px;
 }
 
 h6.sitemapHeader {
-    font-size: 0.9rem;
-    color: white;
-    font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 700;
 }
 
 a.sitemapLink {
-    font-size: 0.9rem;
-    color: hsl(0, 0%, 75%);
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 75%);
 }
 
 a.sitemapLink:hover {
-    color: hsl(180, 66%, 49%);
-    cursor: pointer;
+  color: hsl(180, 66%, 49%);
+  cursor: pointer;
 }
 
 a.footerIcon {
-    color: white;
-    font-size: 2rem;
-    padding-right: 1rem;
+  color: white;
+  font-size: 2rem;
+  padding-right: 1rem;
 }
 
 a.footerIcon:hover {
-    color: hsl(180, 66%, 49%);
-    cursor: pointer;
+  color: hsl(180, 66%, 49%);
+  cursor: pointer;
 }
 
 img.cardImage {
-    width: 80px;
-    border-radius: 40px;
-    background-color: hsl(257, 27%, 26%);
-    object-fit: scale-down;
-    position: absolute;
-    top: -40px;
-    left: 15px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: hsl(257, 27%, 26%);
+  object-fit: scale-down;
+  position: absolute;
+  top: -40px;
+  left: 15px;
 }
 
 span#formNotification {
-    font-weight: 500;
-    font-size: 0.9rem;
-    color: lightcoral;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: lightcoral;
 }
 
+@media (max-width: 576px) {
+  button.loginButton {
+    margin-bottom: 10px;
+  }
 
+  div.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  div.womanWorkingImage {
+    order: 1;
+    margin-bottom: 15px;
+  }
 
+  div.welcomeText {
+    order: 2;
+    justify-content: center;
+    align-items: center;
+  }
 
+  h1.titleIntro {
+    font-size: 35px;
+    text-align: center;
+  }
 
+  p.contentIntro {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  button.btnStart {
+    margin-bottom: 20px;
+  }
+
+  h2.titleStatistics {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  div.cardMobile {
+    flex-direction: column;
+  }
+
+  div.featureCard {
+    border: none;
+    border-bottom: solid 2px hsl(180, 66%, 49%);
+    /* position: relative; */
+    margin-bottom: 50px;
+  }
+
+  div.footerMobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  div.footerIconMobile {
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
