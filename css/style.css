@@ -154,8 +154,8 @@ span#formNotification {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   button.loginButton {
