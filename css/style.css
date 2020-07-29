@@ -150,6 +150,14 @@ span#formNotification {
 }
 
 @media (max-width: 576px) {
+  div.small-screen-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   button.loginButton {
     margin-bottom: 10px;
   }
